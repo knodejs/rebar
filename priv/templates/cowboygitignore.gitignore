@@ -1,0 +1,13 @@
+.eunit
+deps
+*.o
+*.beam
+*.plt
+erl_crash.dump
+ebin
+rel/example_project
+priv/www/node_modules
+db
+node_modules
+.concrete/DEV_MODE
+.rebar

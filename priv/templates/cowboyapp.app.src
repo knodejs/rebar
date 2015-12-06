@@ -1,0 +1,24 @@
+{application, {{appid}},
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib,
+                  cowboy,
+                  xmerl,
+                  sockjs,
+                  ranch,
+                  crypto,
+                  cowlib,
+                  asn1,
+                  public_key,
+                  ssl,
+                  idna,
+                  mimerl,
+                  hackney
+                 ]},
+  {mod, { {{appid}}_app, []}},
+  {env, [{http_port, 8081}]}
+ ]}.

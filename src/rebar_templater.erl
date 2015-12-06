@@ -27,6 +27,7 @@
 -module(rebar_templater).
 
 -export(['create-app'/2,
+         'create-cowboy'/2,
          'create-lib'/2,
          'create-node'/2,
          'list-templates'/2,
@@ -50,6 +51,10 @@
 'create-app'(Config, _File) ->
     %% Alias for create w/ template=simpleapp
     create1(Config, "simpleapp").
+
+'create-cowboy'(Config, _File) ->
+    %% Alias for create w/ template=cowboyapp
+    create1(Config, "cowboyapp").
 
 'create-lib'(Config, _File) ->
     %% Alias for create w/ template=simplelib

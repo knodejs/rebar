@@ -25,6 +25,7 @@ _rebar()
         check-plt \
         create \
         create-app \
+        create-cowboy \
         create-lib \
         create-node \
         ct \

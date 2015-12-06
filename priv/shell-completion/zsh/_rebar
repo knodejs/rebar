@@ -35,6 +35,7 @@ _rebar () {
         'compile[Compile sources]' \
         'create[Create skel based on template and vars]' \
         'create-app[Create simple app skel]' \
+        'create-cowboy[Create cowboy app skel]' \
         'create-lib[Create simple lib skel]' \
         'create-node[Create simple node skel]' \
         'list-template[List available templates]' \

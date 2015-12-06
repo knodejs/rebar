@@ -1,0 +1,15 @@
+{variables, [{appid, "myapp"}]}.
+
+{template, "cowboyapp.erl", "{{appid}}/src/{{appid}}.erl"}.
+{template, "cowboyapp.app.src", "{{appid}}/src/{{appid}}.app.src"}.
+{template, "cowboyapp_app.erl", "{{appid}}/src/{{appid}}_app.erl"}.
+{template, "cowboyapp_sup.erl", "{{appid}}/src/{{appid}}_sup.erl"}.
+
+{template, "cowboystart.sh", "{{appid}}/start.sh"}.
+{template, "cowboyrebar.config", "{{appid}}/rebar.config"}.
+{template, "cowboygitignore.gitignore", "{{appid}}/.gitignore"}.
+{template, "cowboybowerrc.bowerrc", "{{appid}}/.bowerrc"}.
+{template, "cowboyapp.js", "{{appid}}/priv/www/scripts/app.js"}.
+
+
+
