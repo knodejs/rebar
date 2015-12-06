@@ -9,6 +9,10 @@
 {template, "cowboyrebar.config", "{{appid}}/rebar.config"}.
 {template, "cowboygitignore.gitignore", "{{appid}}/.gitignore"}.
 {template, "cowboybowerrc.bowerrc", "{{appid}}/.bowerrc"}.
+{template, "cowboybower.json", "{{appid}}/bower.js"}.
+{template, "cowboyProcfile.heroku", "{{appid}}/Procfile"}.
+
+{template, "cowboyindex.html", "{{appid}}/priv/www/index.html"}.
 {template, "cowboyapp.js", "{{appid}}/priv/www/scripts/app.js"}.
 
 
