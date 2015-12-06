@@ -421,6 +421,7 @@ escriptize                               Generate escript archive
 create      template= [var=foo,...]      Create skel based on template and vars
 create-app  [appid=myapp]                Create simple app skel
 create-cowboy  [appid=myapp]             Create simple cowboy app skel
+create-mochiweb  [appid=myapp]             Create simple mochiweb app skel
 create-lib  [libid=mylib]                Create simple lib skel
 create-node [nodeid=mynode]              Create simple node skel
 list-templates                           List available templates
@@ -550,6 +551,7 @@ command_names() ->
      "create",
      "create-app",
      "create-cowboy",
+     "create-mochiweb",
      "create-lib",
      "create-node",
      "ct",

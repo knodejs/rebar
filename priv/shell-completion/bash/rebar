@@ -26,6 +26,7 @@ _rebar()
         create \
         create-app \
         create-cowboy \
+        create-mochiweb \
         create-lib \
         create-node \
         ct \

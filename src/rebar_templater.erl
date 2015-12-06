@@ -28,6 +28,7 @@
 
 -export(['create-app'/2,
          'create-cowboy'/2,
+         'create-mochiweb'/2,
          'create-lib'/2,
          'create-node'/2,
          'list-templates'/2,
@@ -55,6 +56,10 @@
 'create-cowboy'(Config, _File) ->
     %% Alias for create w/ template=cowboyapp
     create1(Config, "cowboyapp").
+
+'create-mochiweb'(Config, _File) ->
+    %% Alias for create w/ template=cowboyapp
+    create1(Config, "mochiapp").
 
 'create-lib'(Config, _File) ->
     %% Alias for create w/ template=simplelib
